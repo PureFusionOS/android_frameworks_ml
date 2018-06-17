@@ -25,6 +25,7 @@ cc_library_static {
     defaults: ["neuralnetworks_defaults"],
     host_supported: false,
     vendor_available: true,
+    polly: false,
     export_include_dirs: ["include"],
 
     srcs: [
